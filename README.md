@@ -39,7 +39,7 @@ pip install opencv-python numpy
 
 # Clone the project into your catkin workspace and build
 cd ~/catkin_ws/src
-git clone https://github.com/yourusername/red_ball_tracker.git
+git clone https://github.com/Elf-kosar/red_ball_tracker.git
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
@@ -60,6 +60,7 @@ rosrun red_ball_tracker camera_bridge.py
 
 # Terminal 3: Run red_ball_tracker node
 rosrun red_ball_tracker red_ball_tracker.py
+
 
 
 
