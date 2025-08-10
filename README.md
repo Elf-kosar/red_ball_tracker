@@ -45,6 +45,7 @@ catkin_make
 source devel/setup.bash
 
 ## Start ROS core
+
 roscore
 
 # Terminal 1: Run camera_windows node
@@ -55,4 +56,5 @@ rosrun red_ball_tracker camera_bridge.py
 
 # Terminal 3: Run red_ball_tracker node
 rosrun red_ball_tracker red_ball_tracker.py
+
 
