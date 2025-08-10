@@ -1,4 +1,4 @@
-# 🎯 Red Ball Tracker
+#  Red Ball Tracker
 
 **Red Ball Tracker** is a real-time **red ball tracking** project built with ROS and Python.  
 The project captures video from a Windows camera using `camera_windows.py`, streams it over ROS topics via `camera_bridge.py`, and performs red ball detection and tracking with `red_ball_tracker.py`.
@@ -46,7 +46,7 @@ source devel/setup.bash
 
 ```
 
-1. Operating:
+2. Operating:
 
 ```bash
 
@@ -60,6 +60,7 @@ rosrun red_ball_tracker camera_bridge.py
 
 # Terminal 3: Run red_ball_tracker node
 rosrun red_ball_tracker red_ball_tracker.py
+
 
 
 
