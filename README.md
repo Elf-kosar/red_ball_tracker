@@ -20,9 +20,9 @@ The project captures video from a Windows camera using `camera_windows.py`, stre
 
 ---
 
-## Installation
+## Installation and Operation
 
-1. Install ROS (e.g. Noetic):  
+1. Install ROS:  
 ```bash
 sudo apt update
 sudo apt install ros-noetic-desktop-full
@@ -44,7 +44,7 @@ cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
 
-# Start ROS core
+## Start ROS core
 roscore
 
 # Terminal 1: Run camera_windows node
@@ -55,3 +55,4 @@ rosrun red_ball_tracker camera_bridge.py
 
 # Terminal 3: Run red_ball_tracker node
 rosrun red_ball_tracker red_ball_tracker.py
+
